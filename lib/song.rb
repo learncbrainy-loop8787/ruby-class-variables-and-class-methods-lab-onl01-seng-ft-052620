@@ -3,7 +3,7 @@ class Song
   def self.count 
     @@count 
   end 
-attr_accessor :name :artist :genre
+
  
  GENRE = []
  ARTIST = []
