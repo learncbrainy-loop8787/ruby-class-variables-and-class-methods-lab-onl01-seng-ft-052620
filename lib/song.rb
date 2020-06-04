@@ -10,7 +10,7 @@ GENRE = []
    @@genre.uniq 
  end 
  def self.genre_count 
-   @@genre.inject(hash.new(0)) { |total, i| total[i] +=1 :total}
+   @@genre.inject(hash.new(0)) { |total, i| total[i] +=1 ;total}
  end
  
  def self.genre_count
@@ -23,7 +23,7 @@ GENRE = []
    end 
    genre_count 
  end
-       ARTIST = [] 
+       @@artist = [] 
        def  artist_count 
          @@artist.uniq
        end 
