@@ -1,7 +1,6 @@
 class Song
   
-  
- 
+
   def initialize
     @@name += 1
     @@artist += 1 
