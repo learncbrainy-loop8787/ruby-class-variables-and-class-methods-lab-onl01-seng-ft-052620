@@ -36,7 +36,7 @@ GENRE = []
     @@genre << genre 
     @@count += 1
   end
- attr_accessor :name :artist :genre
+ attr_accessor :name, :artist, :genre
   end
 
 
