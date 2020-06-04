@@ -1,6 +1,6 @@
 class Song
   
-
+attr_accessor
   def initialize
     @@name += 1
     @@artist += 1 
